@@ -2,8 +2,8 @@
 # Local Event Finder
 
 ## Overview
-Local Event Finder is a web application designed to provide users with a simple and convenient way to browse and purchase tickets for local events. Users can explore various events, view detailed descriptions, and buy tickets either as VIP or Normal.
-
+Local Event Finder is a web application designed to provide users with a simple and convenient way to browse and purchase tickets for local events. 
+Users can explore various events, view detailed descriptions, and buy tickets either as VIP or Normal.
 The project also includes an Admin panel that allows administrators to manage user accounts and events efficiently.
 
 ---
@@ -33,7 +33,7 @@ The project also includes an Admin panel that allows administrators to manage us
 ## Setup & Installation
 
 ### Prerequisites
-- JDK 8 or higher
+- JDK 
 - Apache Tomcat (or any compatible servlet container)
 - MySQL Server
 - IDE such as Eclipse, IntelliJ IDEA, or NetBeans
@@ -60,7 +60,7 @@ The project also includes an Admin panel that allows administrators to manage us
 - `/src` - Java source files including servlets and utility classes.
 - `/WebContent` or `/webapp` - JSP files, HTML, CSS, and JavaScript resources.
 - `/lib` - External libraries and JDBC driver.
-- `/sql` - Database schema and initial data scripts (optional).
+
 
 ---
 
@@ -80,23 +80,16 @@ The project also includes an Admin panel that allows administrators to manage us
 
 ## Future Improvements
 - Add payment gateway integration for seamless ticket purchasing.
-- Implement user authentication and authorization.
 - Enable event categorization and search filters.
-- Responsive design for mobile and tablet devices.
 - Email notifications for ticket confirmation.
-
----
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## Contact
 For questions or support, please contact:  
-**Your Name**  
-Email: your.email@example.com  
-GitHub: [https://github.com/yourusername](https://github.com/yourusername)
+**Tolera Fayisa**  
+Email: tolefayiss@gmail.com  
+GitHub: [https://github.com/Tolera314](https://github.com/Tolera314)
 
 ---
 
