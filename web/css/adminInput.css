@@ -1,0 +1,125 @@
+  
+* {
+    margin: 0;     
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {   
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1a1f2c 0%, #2d3748 100%);
+    padding: 20px;
+    margin-top:60px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+input[type="file"] {
+    padding: 0.75rem;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    background: #9b87f5;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: background 0.3s ease;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background: #7e69ab;
+}
+
+input[type="submit"] {
+    background: #9b87f5;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #7e69ab;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+input[type="datetime-local"] {
+    color-scheme: dark;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
+    input {
+        padding: 0.875rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+        max-width: 90%; /* Allow wider screens to use more space */
+    }
+}
+   

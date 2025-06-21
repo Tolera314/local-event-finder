@@ -1,0 +1,63 @@
+
+      .message-container {
+            height: calc(100vh - 160px);
+        }
+        .user-list {
+            height: calc(100vh - 80px);
+        }
+        .user {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .user:hover {
+            background-color: #f0f0f0;
+        }
+        .message {
+            margin: 5px 0;
+            padding: 8px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+        }
+         .message {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+        .sent {
+            align-items: flex-end;
+        }
+        .received {
+            align-items: flex-start;
+        }
+        .message-header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 0.8em;
+            color: gray;
+        }
+        .initials {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: #007bff;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .message-text {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f1f1f1;
+            max-width: 60%;
+        }
+        .sent .message-text {
+            background-color: #dcf8c6;
+        }
+        .received .message-text {
+            background-color: #ffffff;
+        }
